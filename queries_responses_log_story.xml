@@ -1,0 +1,1023 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<queries>
+    <query query_id="1">
+        <from_city xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="city">
+            <name>Гонконг</name>
+            <longitude>114.1</longitude>
+            <latitude>22.59</latitude>
+            <is_have_airport>true</is_have_airport>
+            <is_have_seaport>true</is_have_seaport>
+        </from_city>
+        <to_city xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="city">
+            <name>Москва</name>
+            <longitude>37.5</longitude>
+            <latitude>55.75</latitude>
+            <is_have_airport>true</is_have_airport>
+            <is_have_seaport>false</is_have_seaport>
+        </to_city>
+        <needed_quantity_people>4</needed_quantity_people>
+        <needed_quantity_cargo>100</needed_quantity_cargo>
+        <fastest_transport_result>
+            <name>Боинг 737-800</name>
+            <transport_type>AIR_TRANSPORT</transport_type>
+            <sped>850</sped>
+            <transported_quantity_people>189</transported_quantity_people>
+            <transported_quantity_cargo>5670</transported_quantity_cargo>
+            <price_per_kilometer>2</price_per_kilometer>
+        </fastest_transport_result>
+        <cheapest_transport_result>
+            <name>Ауди А6</name>
+            <transport_type>LAND_TRANSPORT</transport_type>
+            <sped>230</sped>
+            <transported_quantity_people>5</transported_quantity_people>
+            <transported_quantity_cargo>250</transported_quantity_cargo>
+            <price_per_kilometer>1</price_per_kilometer>
+        </cheapest_transport_result>
+    </query>
+    <query query_id="2">
+        <from_city xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="city">
+            <name>Таронто</name>
+            <longitude>-79.37</longitude>
+            <latitude>43.65</latitude>
+            <is_have_airport>false</is_have_airport>
+            <is_have_seaport>true</is_have_seaport>
+        </from_city>
+        <to_city xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="city">
+            <name>Москва</name>
+            <longitude>37.5</longitude>
+            <latitude>55.75</latitude>
+            <is_have_airport>true</is_have_airport>
+            <is_have_seaport>false</is_have_seaport>
+        </to_city>
+        <needed_quantity_people>3</needed_quantity_people>
+        <needed_quantity_cargo>12</needed_quantity_cargo>
+        <fastest_transport_result>
+            <name>Ауди А6</name>
+            <transport_type>LAND_TRANSPORT</transport_type>
+            <sped>230</sped>
+            <transported_quantity_people>5</transported_quantity_people>
+            <transported_quantity_cargo>250</transported_quantity_cargo>
+            <price_per_kilometer>1</price_per_kilometer>
+        </fastest_transport_result>
+        <cheapest_transport_result>
+            <name>Ауди А6</name>
+            <transport_type>LAND_TRANSPORT</transport_type>
+            <sped>230</sped>
+            <transported_quantity_people>5</transported_quantity_people>
+            <transported_quantity_cargo>250</transported_quantity_cargo>
+            <price_per_kilometer>1</price_per_kilometer>
+        </cheapest_transport_result>
+    </query>
+    <query query_id="3">
+        <from_city xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="city">
+            <name>Таронто</name>
+            <longitude>-79.37</longitude>
+            <latitude>43.65</latitude>
+            <is_have_airport>false</is_have_airport>
+            <is_have_seaport>true</is_have_seaport>
+        </from_city>
+        <to_city xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="city">
+            <name>Рим</name>
+            <longitude>51.44</longitude>
+            <latitude>35.71</latitude>
+            <is_have_airport>true</is_have_airport>
+            <is_have_seaport>true</is_have_seaport>
+        </to_city>
+        <needed_quantity_people>3</needed_quantity_people>
+        <needed_quantity_cargo>50</needed_quantity_cargo>
+        <fastest_transport_result>
+            <name>Ауди А6</name>
+            <transport_type>LAND_TRANSPORT</transport_type>
+            <sped>230</sped>
+            <transported_quantity_people>5</transported_quantity_people>
+            <transported_quantity_cargo>250</transported_quantity_cargo>
+            <price_per_kilometer>1</price_per_kilometer>
+        </fastest_transport_result>
+        <cheapest_transport_result>
+            <name>Ауди А6</name>
+            <transport_type>LAND_TRANSPORT</transport_type>
+            <sped>230</sped>
+            <transported_quantity_people>5</transported_quantity_people>
+            <transported_quantity_cargo>250</transported_quantity_cargo>
+            <price_per_kilometer>1</price_per_kilometer>
+        </cheapest_transport_result>
+    </query>
+    <query query_id="4">
+        <from_city xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="city">
+            <name>Москва</name>
+            <longitude>37.5</longitude>
+            <latitude>55.75</latitude>
+            <is_have_airport>true</is_have_airport>
+            <is_have_seaport>false</is_have_seaport>
+        </from_city>
+        <to_city xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="city">
+            <name>Рим</name>
+            <longitude>51.44</longitude>
+            <latitude>35.71</latitude>
+            <is_have_airport>true</is_have_airport>
+            <is_have_seaport>true</is_have_seaport>
+        </to_city>
+        <needed_quantity_people>5</needed_quantity_people>
+        <needed_quantity_cargo>45</needed_quantity_cargo>
+        <fastest_transport_result>
+            <name>Боинг 737-800</name>
+            <transport_type>AIR_TRANSPORT</transport_type>
+            <sped>850</sped>
+            <transported_quantity_people>189</transported_quantity_people>
+            <transported_quantity_cargo>5670</transported_quantity_cargo>
+            <price_per_kilometer>2</price_per_kilometer>
+        </fastest_transport_result>
+        <cheapest_transport_result>
+            <name>Ауди А6</name>
+            <transport_type>LAND_TRANSPORT</transport_type>
+            <sped>230</sped>
+            <transported_quantity_people>5</transported_quantity_people>
+            <transported_quantity_cargo>250</transported_quantity_cargo>
+            <price_per_kilometer>1</price_per_kilometer>
+        </cheapest_transport_result>
+    </query>
+    <query query_id="5">
+        <from_city xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="city">
+            <name>Москва</name>
+            <longitude>37.5</longitude>
+            <latitude>55.75</latitude>
+            <is_have_airport>true</is_have_airport>
+            <is_have_seaport>false</is_have_seaport>
+        </from_city>
+        <to_city xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="city">
+            <name>Гонконг</name>
+            <longitude>114.1</longitude>
+            <latitude>22.59</latitude>
+            <is_have_airport>true</is_have_airport>
+            <is_have_seaport>true</is_have_seaport>
+        </to_city>
+        <needed_quantity_people>10</needed_quantity_people>
+        <needed_quantity_cargo>4</needed_quantity_cargo>
+        <fastest_transport_result>
+            <name>Боинг 737-800</name>
+            <transport_type>AIR_TRANSPORT</transport_type>
+            <sped>850</sped>
+            <transported_quantity_people>189</transported_quantity_people>
+            <transported_quantity_cargo>5670</transported_quantity_cargo>
+            <price_per_kilometer>2</price_per_kilometer>
+        </fastest_transport_result>
+        <cheapest_transport_result>
+            <name>Боинг 737-800</name>
+            <transport_type>AIR_TRANSPORT</transport_type>
+            <sped>850</sped>
+            <transported_quantity_people>189</transported_quantity_people>
+            <transported_quantity_cargo>5670</transported_quantity_cargo>
+            <price_per_kilometer>2</price_per_kilometer>
+        </cheapest_transport_result>
+    </query>
+    <query query_id="6">
+        <from_city xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="city">
+            <name>Рим</name>
+            <longitude>51.44</longitude>
+            <latitude>35.71</latitude>
+            <is_have_airport>true</is_have_airport>
+            <is_have_seaport>true</is_have_seaport>
+        </from_city>
+        <to_city xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="city">
+            <name>Таронто</name>
+            <longitude>-79.37</longitude>
+            <latitude>43.65</latitude>
+            <is_have_airport>false</is_have_airport>
+            <is_have_seaport>true</is_have_seaport>
+        </to_city>
+        <needed_quantity_people>5</needed_quantity_people>
+        <needed_quantity_cargo>45</needed_quantity_cargo>
+        <fastest_transport_result>
+            <name>Ауди А6</name>
+            <transport_type>LAND_TRANSPORT</transport_type>
+            <sped>230</sped>
+            <transported_quantity_people>5</transported_quantity_people>
+            <transported_quantity_cargo>250</transported_quantity_cargo>
+            <price_per_kilometer>1</price_per_kilometer>
+        </fastest_transport_result>
+        <cheapest_transport_result>
+            <name>Ауди А6</name>
+            <transport_type>LAND_TRANSPORT</transport_type>
+            <sped>230</sped>
+            <transported_quantity_people>5</transported_quantity_people>
+            <transported_quantity_cargo>250</transported_quantity_cargo>
+            <price_per_kilometer>1</price_per_kilometer>
+        </cheapest_transport_result>
+    </query>
+    <query query_id="7">
+        <from_city xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="city">
+            <name>Рим</name>
+            <longitude>51.44</longitude>
+            <latitude>35.71</latitude>
+            <is_have_airport>true</is_have_airport>
+            <is_have_seaport>true</is_have_seaport>
+        </from_city>
+        <to_city xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="city">
+            <name>Таронто</name>
+            <longitude>-79.37</longitude>
+            <latitude>43.65</latitude>
+            <is_have_airport>false</is_have_airport>
+            <is_have_seaport>true</is_have_seaport>
+        </to_city>
+        <needed_quantity_people>5</needed_quantity_people>
+        <needed_quantity_cargo>34</needed_quantity_cargo>
+        <fastest_transport_result>
+            <name>Riviera 45 (яхта)</name>
+            <transport_type>SEA_TRANSPORT</transport_type>
+            <sped>85</sped>
+            <transported_quantity_people>8</transported_quantity_people>
+            <transported_quantity_cargo>400</transported_quantity_cargo>
+            <price_per_kilometer>5</price_per_kilometer>
+        </fastest_transport_result>
+        <cheapest_transport_result>
+            <name>Ауди А6</name>
+            <transport_type>LAND_TRANSPORT</transport_type>
+            <sped>230</sped>
+            <transported_quantity_people>5</transported_quantity_people>
+            <transported_quantity_cargo>250</transported_quantity_cargo>
+            <price_per_kilometer>1</price_per_kilometer>
+        </cheapest_transport_result>
+    </query>
+    <query query_id="8">
+        <from_city xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="city">
+            <name>Рим</name>
+            <longitude>51.44</longitude>
+            <latitude>35.71</latitude>
+            <is_have_airport>true</is_have_airport>
+            <is_have_seaport>true</is_have_seaport>
+        </from_city>
+        <to_city xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="city">
+            <name>Таронто</name>
+            <longitude>-79.37</longitude>
+            <latitude>43.65</latitude>
+            <is_have_airport>false</is_have_airport>
+            <is_have_seaport>true</is_have_seaport>
+        </to_city>
+        <needed_quantity_people>5</needed_quantity_people>
+        <needed_quantity_cargo>45</needed_quantity_cargo>
+        <fastest_transport_result>
+            <name>Riviera 45 (яхта)</name>
+            <transport_type>SEA_TRANSPORT</transport_type>
+            <sped>85</sped>
+            <transported_quantity_people>8</transported_quantity_people>
+            <transported_quantity_cargo>400</transported_quantity_cargo>
+            <price_per_kilometer>5</price_per_kilometer>
+        </fastest_transport_result>
+        <cheapest_transport_result>
+            <name>Ауди А6</name>
+            <transport_type>LAND_TRANSPORT</transport_type>
+            <sped>230</sped>
+            <transported_quantity_people>5</transported_quantity_people>
+            <transported_quantity_cargo>250</transported_quantity_cargo>
+            <price_per_kilometer>1</price_per_kilometer>
+        </cheapest_transport_result>
+    </query>
+    <query query_id="9">
+        <from_city xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="city">
+            <name>Рим</name>
+            <longitude>51.44</longitude>
+            <latitude>35.71</latitude>
+            <is_have_airport>true</is_have_airport>
+            <is_have_seaport>true</is_have_seaport>
+        </from_city>
+        <to_city xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="city">
+            <name>Таронто</name>
+            <longitude>-79.37</longitude>
+            <latitude>43.65</latitude>
+            <is_have_airport>false</is_have_airport>
+            <is_have_seaport>true</is_have_seaport>
+        </to_city>
+        <needed_quantity_people>3</needed_quantity_people>
+        <needed_quantity_cargo>56</needed_quantity_cargo>
+        <fastest_transport_result>
+            <name>Riviera 45 (яхта)</name>
+            <transport_type>SEA_TRANSPORT</transport_type>
+            <sped>85</sped>
+            <transported_quantity_people>8</transported_quantity_people>
+            <transported_quantity_cargo>400</transported_quantity_cargo>
+            <price_per_kilometer>5</price_per_kilometer>
+        </fastest_transport_result>
+        <cheapest_transport_result>
+            <name>Ауди А6</name>
+            <transport_type>LAND_TRANSPORT</transport_type>
+            <sped>230</sped>
+            <transported_quantity_people>5</transported_quantity_people>
+            <transported_quantity_cargo>250</transported_quantity_cargo>
+            <price_per_kilometer>1</price_per_kilometer>
+        </cheapest_transport_result>
+    </query>
+    <query query_id="10">
+        <from_city xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="city">
+            <name>Рим</name>
+            <longitude>51.44</longitude>
+            <latitude>35.71</latitude>
+            <is_have_airport>true</is_have_airport>
+            <is_have_seaport>true</is_have_seaport>
+        </from_city>
+        <to_city xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="city">
+            <name>Таронто</name>
+            <longitude>-79.37</longitude>
+            <latitude>43.65</latitude>
+            <is_have_airport>false</is_have_airport>
+            <is_have_seaport>true</is_have_seaport>
+        </to_city>
+        <needed_quantity_people>2</needed_quantity_people>
+        <needed_quantity_cargo>2</needed_quantity_cargo>
+        <fastest_transport_result>
+            <name>Riviera 45 (яхта)</name>
+            <transport_type>SEA_TRANSPORT</transport_type>
+            <sped>85</sped>
+            <transported_quantity_people>8</transported_quantity_people>
+            <transported_quantity_cargo>400</transported_quantity_cargo>
+            <price_per_kilometer>5</price_per_kilometer>
+        </fastest_transport_result>
+        <cheapest_transport_result>
+            <name>Ауди А6</name>
+            <transport_type>LAND_TRANSPORT</transport_type>
+            <sped>230</sped>
+            <transported_quantity_people>5</transported_quantity_people>
+            <transported_quantity_cargo>250</transported_quantity_cargo>
+            <price_per_kilometer>1</price_per_kilometer>
+        </cheapest_transport_result>
+    </query>
+    <query query_id="11">
+        <from_city xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="city">
+            <name>Рим</name>
+            <longitude>51.44</longitude>
+            <latitude>35.71</latitude>
+            <is_have_airport>true</is_have_airport>
+            <is_have_seaport>true</is_have_seaport>
+        </from_city>
+        <to_city xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="city">
+            <name>Таронто</name>
+            <longitude>-79.37</longitude>
+            <latitude>43.65</latitude>
+            <is_have_airport>false</is_have_airport>
+            <is_have_seaport>true</is_have_seaport>
+        </to_city>
+        <needed_quantity_people>2</needed_quantity_people>
+        <needed_quantity_cargo>2</needed_quantity_cargo>
+        <fastest_transport_result>
+            <name>Riviera 45 (яхта)</name>
+            <transport_type>SEA_TRANSPORT</transport_type>
+            <sped>85</sped>
+            <transported_quantity_people>8</transported_quantity_people>
+            <transported_quantity_cargo>400</transported_quantity_cargo>
+            <price_per_kilometer>5</price_per_kilometer>
+        </fastest_transport_result>
+        <cheapest_transport_result>
+            <name>Ауди А6</name>
+            <transport_type>LAND_TRANSPORT</transport_type>
+            <sped>230</sped>
+            <transported_quantity_people>5</transported_quantity_people>
+            <transported_quantity_cargo>250</transported_quantity_cargo>
+            <price_per_kilometer>1</price_per_kilometer>
+        </cheapest_transport_result>
+    </query>
+    <query query_id="12">
+        <from_city xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="city">
+            <name>Рим</name>
+            <longitude>51.44</longitude>
+            <latitude>35.71</latitude>
+            <is_have_airport>true</is_have_airport>
+            <is_have_seaport>true</is_have_seaport>
+        </from_city>
+        <to_city xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="city">
+            <name>Таронто</name>
+            <longitude>-79.37</longitude>
+            <latitude>43.65</latitude>
+            <is_have_airport>false</is_have_airport>
+            <is_have_seaport>true</is_have_seaport>
+        </to_city>
+        <needed_quantity_people>2</needed_quantity_people>
+        <needed_quantity_cargo>2</needed_quantity_cargo>
+        <fastest_transport_result>
+            <name>Riviera 45 (яхта)</name>
+            <transport_type>SEA_TRANSPORT</transport_type>
+            <sped>85</sped>
+            <transported_quantity_people>8</transported_quantity_people>
+            <transported_quantity_cargo>400</transported_quantity_cargo>
+            <price_per_kilometer>5</price_per_kilometer>
+        </fastest_transport_result>
+        <cheapest_transport_result>
+            <name>Ауди А6</name>
+            <transport_type>LAND_TRANSPORT</transport_type>
+            <sped>230</sped>
+            <transported_quantity_people>5</transported_quantity_people>
+            <transported_quantity_cargo>250</transported_quantity_cargo>
+            <price_per_kilometer>1</price_per_kilometer>
+        </cheapest_transport_result>
+    </query>
+    <query query_id="13">
+        <from_city xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="city">
+            <name>Рим</name>
+            <longitude>51.44</longitude>
+            <latitude>35.71</latitude>
+            <is_have_airport>true</is_have_airport>
+            <is_have_seaport>true</is_have_seaport>
+        </from_city>
+        <to_city xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="city">
+            <name>Таронто</name>
+            <longitude>-79.37</longitude>
+            <latitude>43.65</latitude>
+            <is_have_airport>false</is_have_airport>
+            <is_have_seaport>true</is_have_seaport>
+        </to_city>
+        <needed_quantity_people>2</needed_quantity_people>
+        <needed_quantity_cargo>2</needed_quantity_cargo>
+        <fastest_transport_result>
+            <name>Riviera 45 (яхта)</name>
+            <transport_type>SEA_TRANSPORT</transport_type>
+            <sped>85</sped>
+            <transported_quantity_people>8</transported_quantity_people>
+            <transported_quantity_cargo>400</transported_quantity_cargo>
+            <price_per_kilometer>5</price_per_kilometer>
+        </fastest_transport_result>
+        <cheapest_transport_result>
+            <name>Ауди А6</name>
+            <transport_type>LAND_TRANSPORT</transport_type>
+            <sped>230</sped>
+            <transported_quantity_people>5</transported_quantity_people>
+            <transported_quantity_cargo>250</transported_quantity_cargo>
+            <price_per_kilometer>1</price_per_kilometer>
+        </cheapest_transport_result>
+    </query>
+    <query query_id="14">
+        <from_city xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="city">
+            <name>Рим</name>
+            <longitude>51.44</longitude>
+            <latitude>35.71</latitude>
+            <is_have_airport>true</is_have_airport>
+            <is_have_seaport>true</is_have_seaport>
+        </from_city>
+        <to_city xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="city">
+            <name>Таронто</name>
+            <longitude>-79.37</longitude>
+            <latitude>43.65</latitude>
+            <is_have_airport>false</is_have_airport>
+            <is_have_seaport>true</is_have_seaport>
+        </to_city>
+        <needed_quantity_people>3</needed_quantity_people>
+        <needed_quantity_cargo>45</needed_quantity_cargo>
+        <fastest_transport_result>
+            <name>Riviera 45 (яхта)</name>
+            <transport_type>SEA_TRANSPORT</transport_type>
+            <sped>85</sped>
+            <transported_quantity_people>8</transported_quantity_people>
+            <transported_quantity_cargo>400</transported_quantity_cargo>
+            <price_per_kilometer>5</price_per_kilometer>
+        </fastest_transport_result>
+        <cheapest_transport_result>
+            <name>Ауди А6</name>
+            <transport_type>LAND_TRANSPORT</transport_type>
+            <sped>230</sped>
+            <transported_quantity_people>5</transported_quantity_people>
+            <transported_quantity_cargo>250</transported_quantity_cargo>
+            <price_per_kilometer>1</price_per_kilometer>
+        </cheapest_transport_result>
+    </query>
+    <query query_id="15">
+        <from_city xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="city">
+            <name>Рим</name>
+            <longitude>51.44</longitude>
+            <latitude>35.71</latitude>
+            <is_have_airport>true</is_have_airport>
+            <is_have_seaport>true</is_have_seaport>
+        </from_city>
+        <to_city xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="city">
+            <name>Москва</name>
+            <longitude>37.5</longitude>
+            <latitude>55.75</latitude>
+            <is_have_airport>true</is_have_airport>
+            <is_have_seaport>false</is_have_seaport>
+        </to_city>
+        <needed_quantity_people>4</needed_quantity_people>
+        <needed_quantity_cargo>4</needed_quantity_cargo>
+        <fastest_transport_result>
+            <name>Боинг 737-800</name>
+            <transport_type>AIR_TRANSPORT</transport_type>
+            <sped>850</sped>
+            <transported_quantity_people>189</transported_quantity_people>
+            <transported_quantity_cargo>5670</transported_quantity_cargo>
+            <price_per_kilometer>2</price_per_kilometer>
+        </fastest_transport_result>
+        <cheapest_transport_result>
+            <name>Ауди А6</name>
+            <transport_type>LAND_TRANSPORT</transport_type>
+            <sped>230</sped>
+            <transported_quantity_people>5</transported_quantity_people>
+            <transported_quantity_cargo>250</transported_quantity_cargo>
+            <price_per_kilometer>1</price_per_kilometer>
+        </cheapest_transport_result>
+    </query>
+    <query query_id="17">
+        <from_city xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="city">
+            <name>Таронто</name>
+            <longitude>-79.37</longitude>
+            <latitude>43.65</latitude>
+            <is_have_airport>false</is_have_airport>
+            <is_have_seaport>true</is_have_seaport>
+        </from_city>
+        <to_city xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="city">
+            <name>Москва</name>
+            <longitude>37.5</longitude>
+            <latitude>55.75</latitude>
+            <is_have_airport>true</is_have_airport>
+            <is_have_seaport>false</is_have_seaport>
+        </to_city>
+        <needed_quantity_people>5</needed_quantity_people>
+        <needed_quantity_cargo>5</needed_quantity_cargo>
+        <fastest_transport_result>
+            <name>Ауди А6</name>
+            <transport_type>LAND_TRANSPORT</transport_type>
+            <sped>230</sped>
+            <transported_quantity_people>5</transported_quantity_people>
+            <transported_quantity_cargo>250</transported_quantity_cargo>
+            <price_per_kilometer>1</price_per_kilometer>
+        </fastest_transport_result>
+        <cheapest_transport_result>
+            <name>Ауди А6</name>
+            <transport_type>LAND_TRANSPORT</transport_type>
+            <sped>230</sped>
+            <transported_quantity_people>5</transported_quantity_people>
+            <transported_quantity_cargo>250</transported_quantity_cargo>
+            <price_per_kilometer>1</price_per_kilometer>
+        </cheapest_transport_result>
+    </query>
+    <query query_id="18">
+        <from_city xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="city">
+            <name>Москва</name>
+            <longitude>37.5</longitude>
+            <latitude>55.75</latitude>
+            <is_have_airport>true</is_have_airport>
+            <is_have_seaport>false</is_have_seaport>
+        </from_city>
+        <to_city xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="city">
+            <name>Рим</name>
+            <longitude>51.44</longitude>
+            <latitude>35.71</latitude>
+            <is_have_airport>true</is_have_airport>
+            <is_have_seaport>true</is_have_seaport>
+        </to_city>
+        <needed_quantity_people>2</needed_quantity_people>
+        <needed_quantity_cargo>23</needed_quantity_cargo>
+        <fastest_transport_result>
+            <name>Боинг 737-800</name>
+            <transport_type>AIR_TRANSPORT</transport_type>
+            <sped>850</sped>
+            <transported_quantity_people>189</transported_quantity_people>
+            <transported_quantity_cargo>5670</transported_quantity_cargo>
+            <price_per_kilometer>2</price_per_kilometer>
+        </fastest_transport_result>
+        <cheapest_transport_result>
+            <name>Ауди А6</name>
+            <transport_type>LAND_TRANSPORT</transport_type>
+            <sped>230</sped>
+            <transported_quantity_people>5</transported_quantity_people>
+            <transported_quantity_cargo>250</transported_quantity_cargo>
+            <price_per_kilometer>1</price_per_kilometer>
+        </cheapest_transport_result>
+    </query>
+    <query query_id="19">
+        <from_city xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="city">
+            <name>Рим</name>
+            <longitude>51.44</longitude>
+            <latitude>35.71</latitude>
+            <is_have_airport>true</is_have_airport>
+            <is_have_seaport>true</is_have_seaport>
+        </from_city>
+        <to_city xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="city">
+            <name>Таронто</name>
+            <longitude>-79.37</longitude>
+            <latitude>43.65</latitude>
+            <is_have_airport>false</is_have_airport>
+            <is_have_seaport>true</is_have_seaport>
+        </to_city>
+        <needed_quantity_people>3</needed_quantity_people>
+        <needed_quantity_cargo>4</needed_quantity_cargo>
+        <fastest_transport_result>
+            <name>Riviera 45 (яхта)</name>
+            <transport_type>SEA_TRANSPORT</transport_type>
+            <sped>85</sped>
+            <transported_quantity_people>8</transported_quantity_people>
+            <transported_quantity_cargo>400</transported_quantity_cargo>
+            <price_per_kilometer>5</price_per_kilometer>
+        </fastest_transport_result>
+        <cheapest_transport_result>
+            <name>Ауди А6</name>
+            <transport_type>LAND_TRANSPORT</transport_type>
+            <sped>230</sped>
+            <transported_quantity_people>5</transported_quantity_people>
+            <transported_quantity_cargo>250</transported_quantity_cargo>
+            <price_per_kilometer>1</price_per_kilometer>
+        </cheapest_transport_result>
+    </query>
+    <query query_id="20">
+        <from_city xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="city">
+            <name>Рим</name>
+            <longitude>51.44</longitude>
+            <latitude>35.71</latitude>
+            <is_have_airport>true</is_have_airport>
+            <is_have_seaport>true</is_have_seaport>
+        </from_city>
+        <to_city xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="city">
+            <name>Таронто</name>
+            <longitude>-79.37</longitude>
+            <latitude>43.65</latitude>
+            <is_have_airport>false</is_have_airport>
+            <is_have_seaport>true</is_have_seaport>
+        </to_city>
+        <needed_quantity_people>4</needed_quantity_people>
+        <needed_quantity_cargo>4</needed_quantity_cargo>
+        <fastest_transport_result>
+            <name>Riviera 45 (яхта)</name>
+            <transport_type>SEA_TRANSPORT</transport_type>
+            <sped>85</sped>
+            <transported_quantity_people>8</transported_quantity_people>
+            <transported_quantity_cargo>400</transported_quantity_cargo>
+            <price_per_kilometer>5</price_per_kilometer>
+        </fastest_transport_result>
+        <cheapest_transport_result>
+            <name>Ауди А6</name>
+            <transport_type>LAND_TRANSPORT</transport_type>
+            <sped>230</sped>
+            <transported_quantity_people>5</transported_quantity_people>
+            <transported_quantity_cargo>250</transported_quantity_cargo>
+            <price_per_kilometer>1</price_per_kilometer>
+        </cheapest_transport_result>
+    </query>
+    <query query_id="21">
+        <from_city xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="city">
+            <name>Рим</name>
+            <longitude>51.44</longitude>
+            <latitude>35.71</latitude>
+            <is_have_airport>true</is_have_airport>
+            <is_have_seaport>true</is_have_seaport>
+        </from_city>
+        <to_city xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="city">
+            <name>Москва</name>
+            <longitude>37.5</longitude>
+            <latitude>55.75</latitude>
+            <is_have_airport>true</is_have_airport>
+            <is_have_seaport>false</is_have_seaport>
+        </to_city>
+        <needed_quantity_people>4</needed_quantity_people>
+        <needed_quantity_cargo>5</needed_quantity_cargo>
+        <fastest_transport_result>
+            <name>Боинг 737-800</name>
+            <transport_type>AIR_TRANSPORT</transport_type>
+            <sped>850</sped>
+            <transported_quantity_people>189</transported_quantity_people>
+            <transported_quantity_cargo>5670</transported_quantity_cargo>
+            <price_per_kilometer>2</price_per_kilometer>
+        </fastest_transport_result>
+        <cheapest_transport_result>
+            <name>Ауди А6</name>
+            <transport_type>LAND_TRANSPORT</transport_type>
+            <sped>230</sped>
+            <transported_quantity_people>5</transported_quantity_people>
+            <transported_quantity_cargo>250</transported_quantity_cargo>
+            <price_per_kilometer>1</price_per_kilometer>
+        </cheapest_transport_result>
+    </query>
+    <query query_id="22">
+        <from_city xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="city">
+            <name>Рим</name>
+            <longitude>51.44</longitude>
+            <latitude>35.71</latitude>
+            <is_have_airport>true</is_have_airport>
+            <is_have_seaport>true</is_have_seaport>
+        </from_city>
+        <to_city xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="city">
+            <name>Таронто</name>
+            <longitude>-79.37</longitude>
+            <latitude>43.65</latitude>
+            <is_have_airport>false</is_have_airport>
+            <is_have_seaport>true</is_have_seaport>
+        </to_city>
+        <needed_quantity_people>4</needed_quantity_people>
+        <needed_quantity_cargo>30</needed_quantity_cargo>
+        <fastest_transport_result>
+            <name>Ауди А6</name>
+            <transport_type>LAND_TRANSPORT</transport_type>
+            <sped>230</sped>
+            <transported_quantity_people>5</transported_quantity_people>
+            <transported_quantity_cargo>250</transported_quantity_cargo>
+            <price_per_kilometer>1</price_per_kilometer>
+        </fastest_transport_result>
+        <cheapest_transport_result>
+            <name>Ауди А6</name>
+            <transport_type>LAND_TRANSPORT</transport_type>
+            <sped>230</sped>
+            <transported_quantity_people>5</transported_quantity_people>
+            <transported_quantity_cargo>250</transported_quantity_cargo>
+            <price_per_kilometer>1</price_per_kilometer>
+        </cheapest_transport_result>
+    </query>
+    <query query_id="23">
+        <from_city xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="city">
+            <name>Рим</name>
+            <longitude>51.44</longitude>
+            <latitude>35.71</latitude>
+            <is_have_airport>true</is_have_airport>
+            <is_have_seaport>true</is_have_seaport>
+        </from_city>
+        <to_city xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="city">
+            <name>Таронто</name>
+            <longitude>-79.37</longitude>
+            <latitude>43.65</latitude>
+            <is_have_airport>false</is_have_airport>
+            <is_have_seaport>true</is_have_seaport>
+        </to_city>
+        <needed_quantity_people>6</needed_quantity_people>
+        <needed_quantity_cargo>200</needed_quantity_cargo>
+        <fastest_transport_result>
+            <name>Riviera 45 (яхта)</name>
+            <transport_type>SEA_TRANSPORT</transport_type>
+            <sped>85</sped>
+            <transported_quantity_people>8</transported_quantity_people>
+            <transported_quantity_cargo>400</transported_quantity_cargo>
+            <price_per_kilometer>5</price_per_kilometer>
+        </fastest_transport_result>
+        <cheapest_transport_result>
+            <name>Riviera 45 (яхта)</name>
+            <transport_type>SEA_TRANSPORT</transport_type>
+            <sped>85</sped>
+            <transported_quantity_people>8</transported_quantity_people>
+            <transported_quantity_cargo>400</transported_quantity_cargo>
+            <price_per_kilometer>5</price_per_kilometer>
+        </cheapest_transport_result>
+    </query>
+    <query query_id="24">
+        <from_city xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="city">
+            <name>Минск</name>
+            <longitude>27.34</longitude>
+            <latitude>53.54</latitude>
+            <is_have_airport>false</is_have_airport>
+            <is_have_seaport>false</is_have_seaport>
+        </from_city>
+        <to_city xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="city">
+            <name>Москва</name>
+            <longitude>37.5</longitude>
+            <latitude>55.75</latitude>
+            <is_have_airport>true</is_have_airport>
+            <is_have_seaport>false</is_have_seaport>
+        </to_city>
+        <needed_quantity_people>2</needed_quantity_people>
+        <needed_quantity_cargo>3</needed_quantity_cargo>
+        <fastest_transport_result>
+            <name>Ауди А6</name>
+            <transport_type>LAND_TRANSPORT</transport_type>
+            <sped>230</sped>
+            <transported_quantity_people>5</transported_quantity_people>
+            <transported_quantity_cargo>250</transported_quantity_cargo>
+            <price_per_kilometer>1</price_per_kilometer>
+        </fastest_transport_result>
+        <cheapest_transport_result>
+            <name>Ауди А6</name>
+            <transport_type>LAND_TRANSPORT</transport_type>
+            <sped>230</sped>
+            <transported_quantity_people>5</transported_quantity_people>
+            <transported_quantity_cargo>250</transported_quantity_cargo>
+            <price_per_kilometer>1</price_per_kilometer>
+        </cheapest_transport_result>
+    </query>
+    <query query_id="25">
+        <from_city xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="city">
+            <name>Москва</name>
+            <longitude>37.5</longitude>
+            <latitude>55.75</latitude>
+            <is_have_airport>true</is_have_airport>
+            <is_have_seaport>false</is_have_seaport>
+        </from_city>
+        <to_city xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="city">
+            <name>Таронто</name>
+            <longitude>-79.37</longitude>
+            <latitude>43.65</latitude>
+            <is_have_airport>false</is_have_airport>
+            <is_have_seaport>true</is_have_seaport>
+        </to_city>
+        <needed_quantity_people>4</needed_quantity_people>
+        <needed_quantity_cargo>4</needed_quantity_cargo>
+        <fastest_transport_result>
+            <name>Ауди А6</name>
+            <transport_type>LAND_TRANSPORT</transport_type>
+            <sped>230</sped>
+            <transported_quantity_people>5</transported_quantity_people>
+            <transported_quantity_cargo>250</transported_quantity_cargo>
+            <price_per_kilometer>1</price_per_kilometer>
+        </fastest_transport_result>
+        <cheapest_transport_result>
+            <name>Ауди А6</name>
+            <transport_type>LAND_TRANSPORT</transport_type>
+            <sped>230</sped>
+            <transported_quantity_people>5</transported_quantity_people>
+            <transported_quantity_cargo>250</transported_quantity_cargo>
+            <price_per_kilometer>1</price_per_kilometer>
+        </cheapest_transport_result>
+    </query>
+    <query query_id="26">
+        <from_city xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="city">
+            <name>Москва</name>
+            <longitude>37.5</longitude>
+            <latitude>55.75</latitude>
+            <is_have_airport>true</is_have_airport>
+            <is_have_seaport>false</is_have_seaport>
+        </from_city>
+        <to_city xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="city">
+            <name>Рим</name>
+            <longitude>51.44</longitude>
+            <latitude>35.71</latitude>
+            <is_have_airport>true</is_have_airport>
+            <is_have_seaport>true</is_have_seaport>
+        </to_city>
+        <needed_quantity_people>3</needed_quantity_people>
+        <needed_quantity_cargo>3</needed_quantity_cargo>
+        <fastest_transport_result>
+            <name>Боинг 737-800</name>
+            <transport_type>AIR_TRANSPORT</transport_type>
+            <sped>850</sped>
+            <transported_quantity_people>189</transported_quantity_people>
+            <transported_quantity_cargo>5670</transported_quantity_cargo>
+            <price_per_kilometer>2</price_per_kilometer>
+        </fastest_transport_result>
+        <cheapest_transport_result>
+            <name>Ауди А6</name>
+            <transport_type>LAND_TRANSPORT</transport_type>
+            <sped>230</sped>
+            <transported_quantity_people>5</transported_quantity_people>
+            <transported_quantity_cargo>250</transported_quantity_cargo>
+            <price_per_kilometer>1</price_per_kilometer>
+        </cheapest_transport_result>
+    </query>
+    <query query_id="27">
+        <from_city xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="city">
+            <name>Рим</name>
+            <longitude>51.44</longitude>
+            <latitude>35.71</latitude>
+            <is_have_airport>true</is_have_airport>
+            <is_have_seaport>true</is_have_seaport>
+        </from_city>
+        <to_city xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="city">
+            <name>Таронто</name>
+            <longitude>-79.37</longitude>
+            <latitude>43.65</latitude>
+            <is_have_airport>false</is_have_airport>
+            <is_have_seaport>true</is_have_seaport>
+        </to_city>
+        <needed_quantity_people>3</needed_quantity_people>
+        <needed_quantity_cargo>3</needed_quantity_cargo>
+        <fastest_transport_result>
+            <name>Ауди А6</name>
+            <transport_type>LAND_TRANSPORT</transport_type>
+            <sped>230</sped>
+            <transported_quantity_people>5</transported_quantity_people>
+            <transported_quantity_cargo>250</transported_quantity_cargo>
+            <price_per_kilometer>1</price_per_kilometer>
+        </fastest_transport_result>
+        <cheapest_transport_result>
+            <name>Ауди А6</name>
+            <transport_type>LAND_TRANSPORT</transport_type>
+            <sped>230</sped>
+            <transported_quantity_people>5</transported_quantity_people>
+            <transported_quantity_cargo>250</transported_quantity_cargo>
+            <price_per_kilometer>1</price_per_kilometer>
+        </cheapest_transport_result>
+    </query>
+    <query query_id="28">
+        <from_city xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="city">
+            <name>Рим</name>
+            <longitude>51.44</longitude>
+            <latitude>35.71</latitude>
+            <is_have_airport>true</is_have_airport>
+            <is_have_seaport>true</is_have_seaport>
+        </from_city>
+        <to_city xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="city">
+            <name>Таронто</name>
+            <longitude>-79.37</longitude>
+            <latitude>43.65</latitude>
+            <is_have_airport>false</is_have_airport>
+            <is_have_seaport>true</is_have_seaport>
+        </to_city>
+        <needed_quantity_people>3</needed_quantity_people>
+        <needed_quantity_cargo>3</needed_quantity_cargo>
+        <fastest_transport_result>
+            <name>Ауди А6</name>
+            <transport_type>LAND_TRANSPORT</transport_type>
+            <sped>230</sped>
+            <transported_quantity_people>5</transported_quantity_people>
+            <transported_quantity_cargo>250</transported_quantity_cargo>
+            <price_per_kilometer>1</price_per_kilometer>
+        </fastest_transport_result>
+        <cheapest_transport_result>
+            <name>Ауди А6</name>
+            <transport_type>LAND_TRANSPORT</transport_type>
+            <sped>230</sped>
+            <transported_quantity_people>5</transported_quantity_people>
+            <transported_quantity_cargo>250</transported_quantity_cargo>
+            <price_per_kilometer>1</price_per_kilometer>
+        </cheapest_transport_result>
+    </query>
+    <query query_id="29">
+        <from_city xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="city">
+            <name>Рим</name>
+            <longitude>51.44</longitude>
+            <latitude>35.71</latitude>
+            <is_have_airport>true</is_have_airport>
+            <is_have_seaport>true</is_have_seaport>
+        </from_city>
+        <to_city xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="city">
+            <name>Таронто</name>
+            <longitude>-79.37</longitude>
+            <latitude>43.65</latitude>
+            <is_have_airport>false</is_have_airport>
+            <is_have_seaport>true</is_have_seaport>
+        </to_city>
+        <needed_quantity_people>3</needed_quantity_people>
+        <needed_quantity_cargo>3</needed_quantity_cargo>
+        <fastest_transport_result>
+            <name>Ауди А6</name>
+            <transport_type>LAND_TRANSPORT</transport_type>
+            <sped>230</sped>
+            <transported_quantity_people>5</transported_quantity_people>
+            <transported_quantity_cargo>250</transported_quantity_cargo>
+            <price_per_kilometer>1</price_per_kilometer>
+        </fastest_transport_result>
+        <cheapest_transport_result>
+            <name>Ауди А6</name>
+            <transport_type>LAND_TRANSPORT</transport_type>
+            <sped>230</sped>
+            <transported_quantity_people>5</transported_quantity_people>
+            <transported_quantity_cargo>250</transported_quantity_cargo>
+            <price_per_kilometer>1</price_per_kilometer>
+        </cheapest_transport_result>
+    </query>
+    <query query_id="30">
+        <from_city xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="city">
+            <name>Таронто</name>
+            <longitude>-79.37</longitude>
+            <latitude>43.65</latitude>
+            <is_have_airport>false</is_have_airport>
+            <is_have_seaport>true</is_have_seaport>
+        </from_city>
+        <to_city xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="city">
+            <name>Москва</name>
+            <longitude>37.5</longitude>
+            <latitude>55.75</latitude>
+            <is_have_airport>true</is_have_airport>
+            <is_have_seaport>false</is_have_seaport>
+        </to_city>
+        <needed_quantity_people>4</needed_quantity_people>
+        <needed_quantity_cargo>35</needed_quantity_cargo>
+        <fastest_transport_result>
+            <name>Ауди А6</name>
+            <transport_type>LAND_TRANSPORT</transport_type>
+            <sped>230</sped>
+            <transported_quantity_people>5</transported_quantity_people>
+            <transported_quantity_cargo>250</transported_quantity_cargo>
+            <price_per_kilometer>1</price_per_kilometer>
+        </fastest_transport_result>
+        <cheapest_transport_result>
+            <name>Ауди А6</name>
+            <transport_type>LAND_TRANSPORT</transport_type>
+            <sped>230</sped>
+            <transported_quantity_people>5</transported_quantity_people>
+            <transported_quantity_cargo>250</transported_quantity_cargo>
+            <price_per_kilometer>1</price_per_kilometer>
+        </cheapest_transport_result>
+    </query>
+    <query query_id="31">
+        <from_city xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="city">
+            <name>Рим</name>
+            <longitude>51.44</longitude>
+            <latitude>35.71</latitude>
+            <is_have_airport>true</is_have_airport>
+            <is_have_seaport>true</is_have_seaport>
+        </from_city>
+        <to_city xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="city">
+            <name>Гонконг</name>
+            <longitude>114.1</longitude>
+            <latitude>22.59</latitude>
+            <is_have_airport>true</is_have_airport>
+            <is_have_seaport>true</is_have_seaport>
+        </to_city>
+        <needed_quantity_people>6</needed_quantity_people>
+        <needed_quantity_cargo>50</needed_quantity_cargo>
+        <fastest_transport_result>
+            <name>Боинг 737-800</name>
+            <transport_type>AIR_TRANSPORT</transport_type>
+            <sped>850</sped>
+            <transported_quantity_people>189</transported_quantity_people>
+            <transported_quantity_cargo>5670</transported_quantity_cargo>
+            <price_per_kilometer>2</price_per_kilometer>
+        </fastest_transport_result>
+        <cheapest_transport_result>
+            <name>Боинг 737-800</name>
+            <transport_type>AIR_TRANSPORT</transport_type>
+            <sped>850</sped>
+            <transported_quantity_people>189</transported_quantity_people>
+            <transported_quantity_cargo>5670</transported_quantity_cargo>
+            <price_per_kilometer>2</price_per_kilometer>
+        </cheapest_transport_result>
+    </query>
+</queries>
