@@ -1,4 +1,6 @@
-### Technologies
+## Final Java SE project before starting learning Spring Framework.
+
+### Technologies:
 
 * Spring Core
 * JDBC
